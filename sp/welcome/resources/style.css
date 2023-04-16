@@ -1,0 +1,305 @@
+@charset "UTF-8";
+
+.titlelogo{
+  max-width: 25cm;
+  position:relative;
+}
+
+body{
+  font-family: 'Kiwi Maru', serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  
+}
+
+.title{
+  text-align: center;
+  font-size: 1.5em;
+}
+  
+.titi11{
+  display: none;
+  }
+  
+  
+.naiyou{
+  text-align: center;
+  marign:0 auto;
+  list-style:none
+  }
+  
+.unlt {
+  background: linear-gradient(transparent 70%, #a7d6ff 70%);
+}
+  
+  
+.unla {
+  position: relative;
+}
+  
+.cenpn{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+    display: inline-block;
+  }
+.cenp{
+  display: inline-block;
+  }
+.unla:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background: -webkit-repeating-linear-gradient(-45deg, #6ad1c8, #6ad1c8 2px, #fff 2px, #fff 4px);
+  background: repeating-linear-gradient(-45deg, #6ad1c8, #6ad1c8 2px, #fff 2px, #fff 4px);
+}
+  
+.keyboard.key {
+  padding: 1px 3px;
+  background-color: #f9f9f9;
+  background-image: -moz-linear-gradient(center top , #eee, #f9f9f9, #eee);
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px #ddd;
+  font-family: inherit;
+  font-size: 0.85em;
+}
+  
+.unlb {
+  /*線の種類（二重線）太さ 色*/
+  border-bottom: double 5px #FFC778;
+}
+  
+/* Instagram */
+.flowbtn9 .fa-instagram{
+color:#c6529a;
+}
+  
+  
+  /* ボタン全体 */
+.flowbtn11{
+font-family:'Verdana',sans-serif;	
+border-radius:4px;
+position:relative;
+display:inline-block;
+width:30%;
+  
+font-size:20px;
+color:#fff!important;
+text-decoration:none;
+margin-bottom:5px;
+}
+  
+  /* Instagramアイコン位置 */
+.insta_btn11 .fa-instagram{
+position:relative;
+z-index:1;	
+}
+/* Instagram紫グラデ背景色 */
+.insta_btn11{
+background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+overflow:hidden;
+}
+/* Instagramオレンジグラデ背景色 */
+.insta_btn11:before{
+content: '';
+position:absolute;
+top:17px;
+left:-75px;
+width:100%;
+height:100%;
+background:-webkit-radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 45%, rgba(255, 88, 96, 0) 80%);
+background:radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 80%);
+}
+  
+  /* ボタン内テキスト調整 */
+.flowbtn11 span{
+font-size:14px;	
+position:relative;
+left:8px;
+bottom:2px;
+transition:.6s;	
+display:inline-block;	
+}
+/* ulタグの内側余白を０にする */
+ul.snsbtniti2{
+padding:0!important;
+}
+/* アイコンボタンの位置調整 */
+.snsbtniti2{
+display:block
+flex-flow:row wrap;
+}
+/* アイコンボタン同士の余白調整 */
+.snsbtniti2 li{
+flex:0 0 48%;
+text-align:center!important;
+}
+  
+  
+.till {
+  color: #505050;/*文字色*/
+  padding: 0.5em;/*文字周りの余白*/
+  display: inline-block;/*おまじない*/
+  line-height: 1.3;/*行高*/
+  background: #dbebf8;/*背景色*/
+  vertical-align: middle;
+  border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/
+}
+
+.till:before {
+  content: '●';
+  color: white;
+  margin-right: 8px;
+}
+  
+.mokuji{
+  font-size: 80%;
+}
+
+.subtitle{
+  text-decoration: underline;
+  font-size: 150%;
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+  aspect-ratio: 4/3; /*アスペクト比（縦横比）を指定*/
+}
+/*まずはお決まりのボックスサイズ算出をborerdd-boxに */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  border-radius: 0.5rem;
+}
+  
+/*その他と主な共通部分は省略f*/
+
+a.btn--green {
+  color: #fff;
+  background-color: #094;
+}
+
+a.btn--green:hover {
+  color: #fff;
+  background: #00a349;
+}
+
+a.btn--green.btn--cubic {
+  border-bottom: 4px solid #00662d;
+}
+
+a.btn--green.btn--cubic:hover {
+  margin-top: 3px;
+  border-bottom: 2px solid #00662d;
+}
+
+a.btn-c {
+  font-size: 0.3em;
+  position: relative;
+  padding: 1.5rem 3rem 1.5rem 2rem;
+  border-radius: 100vh;
+}
+
+a.btn-c i.fa {
+  margin-right: 1rem;
+}
+
+a.btn-c:before {
+  font-family: 'Font Awesome 5 Free';
+  font-size: 1.6rem;
+  line-height: 1;
+  position: absolute;
+  top: calc(50% - .8rem);
+  right: 1rem;
+  margin: 0;
+  padding: 0;
+  content: '\f054';
+}
+  
+.footer-copyright {
+  padding: 1rem;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  background: #ed7d31;
+}
+
+.footer-copyright a {
+  color: #fff;
+}
+
+.activity {
+  font-size: 120%;
+}
+
+.year{
+  font-size: 1.5em;
+}
+
+.kazu{
+  color: red;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .md-flex {
+    display: flex;
+  }
+
+  .md-flex li + li {
+    margin-left: 16px;
+  }
+  
+  .titi11{
+  display: none;
+  }
+}
+  body{
+    font-family: 'Kiwi Maru', serif;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .titi11{
+  display: none;
+  }
